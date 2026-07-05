@@ -12,8 +12,8 @@
   "timeout-low": 5,
   "timeout-critical": 0,
   "fit-to-screen": true,
-  "control-center-width": 500,
-  "control-center-height": 1035,
+  "control-center-width": 450,
+  "control-center-height": 535,
   "notification-window-width": 500,
   "keyboard-shortcuts": true,
   "image-visibility": "when-available",
@@ -89,7 +89,7 @@
         },
         {
           "label": "",
-          "command": "kooha"
+          "command": "/home/rui/.config/hypr/script/swaync-screenrec.sh"
         }
       ]
     }

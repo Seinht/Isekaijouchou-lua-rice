@@ -166,3 +166,10 @@ hl.layer_rule({
 	match = { namespace = "rofi" },
 	blur = true,
 })
+
+hl.layer_rule({
+	name = "swaync",
+	match = { namespace = "swaync-control-center" },
+	blur = true,
+	ignore_alpha = 0.2,
+})
